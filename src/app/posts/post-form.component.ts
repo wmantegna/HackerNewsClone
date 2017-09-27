@@ -24,7 +24,7 @@ import { PostService } from './shared/post.service';
     </div>
 
     <button type="submit" class="btn btn-success" [disabled]="!postForm.form.valid">Submit</button>
-    <button type="button" class="btn btn-default" (click)="newPost(); postForm.reset()">New Hero</button>
+    <button type="button" class="btn btn-default" (click)="newPost(); postForm.reset()">Reset</button>
   </form>
 
   <h3>List of posts stored in memory</h3>
